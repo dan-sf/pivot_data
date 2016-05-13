@@ -1,13 +1,11 @@
-#------------------------------------------------
-# README for pivot_data: Maintained by Dan Fowler
-# Website: dsfcode.com
-# Version 1.0.0
-#------------------------------------------------
+#----------------------
+# README for pivot_data
+#----------------------
 
 Files:
 	pivot_data.sh
 
-Discription:
+Description:
 	- Unix command line utility used to convert tabular vertical data to horizontal data
 	- Ex:
 		$ cat file

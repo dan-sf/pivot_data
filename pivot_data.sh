@@ -1,10 +1,8 @@
 #!/bin/bash
 
-#--------------------------------------------
-# Pivot data script: Maintained by Dan Fowler
-# Website: dsfcode.com
-# Version 1.0.0
-#--------------------------------------------
+#------------------
+# Pivot data script
+#------------------
 
 # Usage function
 function usage
@@ -19,7 +17,7 @@ function usage
 
 	OPTIONS:
 	   -h      Show this message
-	   -x      x column (Ex. the date column, REQUIRED) 
+	   -x      x column (Ex. the date column, REQUIRED)
 	   -y      y column (Ex. the label column, REQUIRED)
 	   -v      value column (One based column number of the uid, REQUIRED)
 	   -l      Label string (Will default to empty string if omitted)
