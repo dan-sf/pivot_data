@@ -6,7 +6,8 @@ Unix command line utility used to convert tabular vertical data to horizontal da
 Usage
 =====
 
-::
+.. code-block:: bash
+
     usage: pivot_data.sh -x HORCOL -y VERTCOL -v VALUES -l LABEL
 
     This script will convert vertical data into a horizontal table
@@ -26,8 +27,9 @@ Usage
 Example
 =======
 
-::
-    cat file
+.. code-block:: bash
+
+    $ cat file
     201308	data_type_1	13529
     201309	data_type_1	390
     201310	data_type_1	14145
@@ -42,7 +44,7 @@ Example
     201401	data_type_2	89
     201402	data_type_2	11123
 
-    cat file | pivot_data.sh -x 1 -y2 -v 3 -l Label
+    $ cat file | pivot_data.sh -x 1 -y2 -v 3 -l Label
     Label	201308	201309	201310	201311	201312	201401	201402
     data_type_1	13529	390	14145	23368	24183	29616	23753
     data_type_2	24474	9601	28223	NA	2239	89	11123
