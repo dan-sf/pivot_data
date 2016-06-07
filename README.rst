@@ -4,7 +4,7 @@ README for pivot_data
 Unix command line utility used to convert tabular vertical data to horizontal data
 
 Usage
-=====
+-----
 
 .. code-block:: bash
 
@@ -25,7 +25,7 @@ Usage
     All columns are one based.
 
 Example
-=======
+-------
 
 .. code-block:: bash
 
